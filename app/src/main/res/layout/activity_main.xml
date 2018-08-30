@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main.MainActivity">
+    tools:context=".Main.MainActivity"
+    android:background="@drawable/edu_bg">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
 
         <!-- Top Toolbar-->
         <RelativeLayout
@@ -25,8 +27,9 @@
         <RelativeLayout
             android:id="@+id/relLayout2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/relLayout1">
+            android:layout_height="match_parent"
+            android:layout_below="@id/relLayout1"
+            android:layout_marginBottom="50dp">
 
             <include layout="@layout/layout_center_viewpager"/>
 

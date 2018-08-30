@@ -21,15 +21,11 @@ public class MessageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_message);
         Log.d(TAG, "onCreate: Started");
 
         setupBottomNavigationView();
     }
-
-    /**
-     *  BottomNavigationView setup
-     */
 
     /**
      *  BottomNavigationView setup

@@ -26,6 +26,9 @@ public class BottomNavigationViewHelper {
         bottomNavigationViewEx.enableShiftingMode(false);
         bottomNavigationViewEx.setTextVisibility(false);
 
+
+
+
     }
 
     public static void enableNavigation(final Context context, BottomNavigationViewEx view){
@@ -39,7 +42,7 @@ public class BottomNavigationViewHelper {
                         context.startActivity(intent1);
                         break;
 
-                    case R.id.ic_calendar:
+                    case R.id.ic_cal:
                         Intent intent2 = new Intent(context, CalendarActivity.class);
                         context.startActivity(intent2);
                         break;
@@ -59,6 +62,7 @@ public class BottomNavigationViewHelper {
                         context.startActivity(intent5);
                         break;
                 }
+
 
                 return false;
             }

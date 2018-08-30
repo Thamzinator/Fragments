@@ -5,25 +5,22 @@
       <map>
         <entry key="imageWizard">
           <value>
+            <PersistentState />
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
             <PersistentState>
               <option name="children">
                 <map>
-                  <entry key="imageAssetPanel">
+                  <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
-                        <option name="children">
+                        <option name="values">
                           <map>
-                            <entry key="launcher">
-                              <value>
-                                <PersistentState>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="foregroundImage" value="C:\Users\tcssi\Desktop\icon.png" />
-                                    </map>
-                                  </option>
-                                </PersistentState>
-                              </value>
-                            </entry>
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_delete_btn" />
+                            <entry key="sourceFile" value="C:\Users\tcssi\3D Objects\EduC8 PSD Files\Applics\delete-button.svg" />
                           </map>
                         </option>
                       </PersistentState>
